@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="oopIntro.Category"/>
+    <fullyQualifiedTypeName name="inheritance.Customer"/>
+    <fullyQualifiedTypeName name="inheritance.IndividualCustomer"/>
+    <fullyQualifiedTypeName name="inheritance.CorporateCustomer"/>
+    <fullyQualifiedTypeName name="inheritance.CustomerManager"/>
+    <fullyQualifiedTypeName name="inheritance.SendikaCustomer"/>
+    <fullyQualifiedTypeName name="inheritance2.LogManager"/>
+    <fullyQualifiedTypeName name="inheritance2.CustomerManager"/>
+    <fullyQualifiedTypeName name="inheritance2.DatabaseLogger"/>
+</qualifiedTypeNameHistroy>

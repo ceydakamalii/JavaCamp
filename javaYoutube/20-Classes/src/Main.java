@@ -17,7 +17,7 @@ public class Main {
 		sayi2=30;
 		System.out.println("sayi1: "+sayi1+"  sayi2: "+sayi2);
 		
-		//Reference Type(arrays,String)
+		//Reference Type(arrays,String,Class)
 		int[] arr1=new int[] {1,2,3};
 		int[] arr2=new int[] {4,5,6};
 		arr2=arr1;

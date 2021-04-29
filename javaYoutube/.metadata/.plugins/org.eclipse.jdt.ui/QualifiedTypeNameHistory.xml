@@ -1,2 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Customer"/>
+    <fullyQualifiedTypeName name="Employee"/>
+    <fullyQualifiedTypeName name="PersonManager"/>
+    <fullyQualifiedTypeName name="EmployeeManager"/>
+    <fullyQualifiedTypeName name="KrediUI"/>
+    <fullyQualifiedTypeName name="AskerKrediManager"/>
+    <fullyQualifiedTypeName name="EmailLogger"/>
+    <fullyQualifiedTypeName name="DatabaseLogger"/>
+    <fullyQualifiedTypeName name="ConsoleLogger"/>
+    <fullyQualifiedTypeName name="BaseLogger"/>
+    <fullyQualifiedTypeName name="CustomerManager"/>
+    <fullyQualifiedTypeName name="FileLogger"/>
+    <fullyQualifiedTypeName name="OgretmenKrediManager"/>
+    <fullyQualifiedTypeName name="TarimKrediManager"/>
+    <fullyQualifiedTypeName name="BaseKrediManager"/>
+    <fullyQualifiedTypeName name="OgrenciKrediManager"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+</qualifiedTypeNameHistroy>

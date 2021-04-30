@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="User"/>
+    <fullyQualifiedTypeName name="Student"/>
+    <fullyQualifiedTypeName name="Instructor"/>
+    <fullyQualifiedTypeName name="UIManager"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="StudentManager"/>
+    <fullyQualifiedTypeName name="InstructorManager"/>
+    <fullyQualifiedTypeName name="UserManager"/>
+</qualifiedTypeNameHistroy>

@@ -6,6 +6,6 @@
     <fullyQualifiedTypeName name="UIManager"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="StudentManager"/>
-    <fullyQualifiedTypeName name="InstructorManager"/>
     <fullyQualifiedTypeName name="UserManager"/>
+    <fullyQualifiedTypeName name="InstructorManager"/>
 </qualifiedTypeNameHistroy>

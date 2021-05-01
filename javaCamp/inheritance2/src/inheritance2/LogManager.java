@@ -1,6 +1,6 @@
 package inheritance2;
 
-public class LogManager {
+public class LogManager {//Kötü kod , Spagetti
 	public void log(int logType) {
 		if(logType==1) {
 			System.out.println("Veritabanina loglandi.");

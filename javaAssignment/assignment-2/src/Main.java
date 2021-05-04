@@ -12,7 +12,19 @@ public class Main {
 		student2.setCreditCardNo("123456789");
 		
 		String[] courseName=new String[] {"C#","Java+React","Python"};
-		Instructor instructor=new Instructor(1,"Engin","Demiroğ","engin@gmail.com","789",courseName);
+		Instructor instructor=new Instructor(1,"Engin","Demirog","engin@gmail.com","789",courseName);
+		
+		Course course1=new Course(1,"C#","Engin Demirog");
+		Course course2=new Course();
+		course2.setId(2);
+		course2.setName("Java+React");
+		course2.setInstructorName("Engin Demirog");
+		
+		CourseManager courseManager=new CourseManager();
+		courseManager.createCourse(course1);
+		courseManager.removeCourse(course2);
+		courseManager.updateCourse(course1);
+		
 		UserManager userManager=new UserManager();
 		StudentManager studentManager=new StudentManager();
 		InstructorManager instructorManager=new InstructorManager();
@@ -22,11 +34,14 @@ public class Main {
 		userManager.logOut(instructor);
 		userManager.logOut(student1);
 		userManager.logOut(student2);
-		studentManager.addCourse(student1, courseName[0]);
-		studentManager.addCourse(student1, courseName[1]);
-		instructorManager.createCourse(instructor, courseName[2]);
-		instructorManager.updateCourse(instructor, courseName[1]);
-		instructorManager.removeCourse(instructor, courseName[0]);
+		studentManager.watchLesson(student1);
+		studentManager.watchLesson(student2);
+		instructorManager.createInstructor(instructor);
+		instructorManager.updateInstructor(instructor);
+		instructorManager.removeInstructor(instructor);
+		instructorManager.startLesson(instructor);
+		instructorManager.finishLesson(instructor);
+		
 		
 	
 

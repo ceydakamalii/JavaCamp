@@ -20,4 +20,10 @@
 			<item value="C:\Users\hp\Desktop\batu"/>
 		</list>
 	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.ws.internal.consumption.ui.wizard.client.clientwizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jst.ws.ui.new"/>
+		</list>
+	</section>
 </section>

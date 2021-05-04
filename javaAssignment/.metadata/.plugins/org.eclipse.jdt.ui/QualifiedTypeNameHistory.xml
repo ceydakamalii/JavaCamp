@@ -2,10 +2,25 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="User"/>
     <fullyQualifiedTypeName name="Student"/>
-    <fullyQualifiedTypeName name="Instructor"/>
     <fullyQualifiedTypeName name="UIManager"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="StudentManager"/>
     <fullyQualifiedTypeName name="UserManager"/>
     <fullyQualifiedTypeName name="InstructorManager"/>
+    <fullyQualifiedTypeName name="Course"/>
+    <fullyQualifiedTypeName name="CourseManager"/>
+    <fullyQualifiedTypeName name="Instructor"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Entity"/>
+    <fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
+    <fullyQualifiedTypeName name="Concrete.NeroCustomerManager"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Entities.Customer"/>
+    <fullyQualifiedTypeName name="Abstract.CustomerService"/>
+    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoap"/>
+    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="Abstract.BaseCustomerManager"/>
+    <fullyQualifiedTypeName name="Concrete.StarbucksCustomerManager"/>
+    <fullyQualifiedTypeName name="Adapters.MernisServiceAdapter"/>
+    <fullyQualifiedTypeName name="Abstract.CustomerCheckService"/>
 </qualifiedTypeNameHistroy>

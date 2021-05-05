@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="Course"/>
     <fullyQualifiedTypeName name="CourseManager"/>
     <fullyQualifiedTypeName name="Instructor"/>
-    <fullyQualifiedTypeName name="org.w3c.dom.Entity"/>
     <fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
     <fullyQualifiedTypeName name="Concrete.NeroCustomerManager"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
@@ -17,10 +16,24 @@
     <fullyQualifiedTypeName name="Entities.Customer"/>
     <fullyQualifiedTypeName name="Abstract.CustomerService"/>
     <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoap"/>
-    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="Abstract.BaseCustomerManager"/>
     <fullyQualifiedTypeName name="Concrete.StarbucksCustomerManager"/>
-    <fullyQualifiedTypeName name="Adapters.MernisServiceAdapter"/>
     <fullyQualifiedTypeName name="Abstract.CustomerCheckService"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Entity"/>
+    <fullyQualifiedTypeName name="org.apache.axis.types.Entities"/>
+    <fullyQualifiedTypeName name="Abstract.Entity"/>
+    <fullyQualifiedTypeName name="Abstract.GameService"/>
+    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/>
+    <fullyQualifiedTypeName name="Abstract.MemberCheckService"/>
+    <fullyQualifiedTypeName name="Abstract.MemberService"/>
+    <fullyQualifiedTypeName name="Abstract.CampaignService"/>
+    <fullyQualifiedTypeName name="Concrete.MemberManager"/>
+    <fullyQualifiedTypeName name="Adapters.MernisServiceAdapter"/>
+    <fullyQualifiedTypeName name="Entities.Member"/>
+    <fullyQualifiedTypeName name="Concrete.GameManager"/>
+    <fullyQualifiedTypeName name="Concrete.CampaignManager"/>
+    <fullyQualifiedTypeName name="Entities.Campaign"/>
+    <fullyQualifiedTypeName name="Entities.Game"/>
 </qualifiedTypeNameHistroy>

@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="interfaces.Utils"/>
     <fullyQualifiedTypeName name="nLayeredDemo.entities.abstracts.Entity"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="nLayeredDemo.business.abstracts.ProductService"/>
     <fullyQualifiedTypeName name="nLayeredDemo.business.concretes.ProductManager"/>
     <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.HibernateProductDao"/>
@@ -26,4 +25,24 @@
     <fullyQualifiedTypeName name="nLayeredDemo.core.LoggerService"/>
     <fullyQualifiedTypeName name="nLayeredDemo.jLogger.JLoggerManager"/>
     <fullyQualifiedTypeName name="nLayeredDemo.core.JLoggerManagerAdapter"/>
+    <fullyQualifiedTypeName name="core.UserValidationService"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="business.abstracts.EmailService"/>
+    <fullyQualifiedTypeName name="business.abstracts.ValidationService"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Scanner"/>
+    <fullyQualifiedTypeName name="entities.concretes.User"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="entities.abstracts.Entity"/>
+    <fullyQualifiedTypeName name="business.concretes.UserManager"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="business.concretes.BaseManager"/>
+    <fullyQualifiedTypeName name="business.concretes.ValidationManager"/>
+    <fullyQualifiedTypeName name="dataAccess.abstracts.UserDao"/>
+    <fullyQualifiedTypeName name="google.GoogleManager"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="business.abstracts.UserService"/>
+    <fullyQualifiedTypeName name="dataAccess.concretes.RegisterUserDao"/>
+    <fullyQualifiedTypeName name="core.BaseService"/>
+    <fullyQualifiedTypeName name="core.GoogleManagerAdapter"/>
 </qualifiedTypeNameHistroy>

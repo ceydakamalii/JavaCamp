@@ -36,4 +36,5 @@
     <fullyQualifiedTypeName name="Concrete.CampaignManager"/>
     <fullyQualifiedTypeName name="Entities.Campaign"/>
     <fullyQualifiedTypeName name="Entities.Game"/>
+    <fullyQualifiedTypeName name="core.abstracts.BaseService"/>
 </qualifiedTypeNameHistroy>

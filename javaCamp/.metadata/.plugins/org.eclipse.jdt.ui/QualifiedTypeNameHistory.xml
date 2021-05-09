@@ -35,7 +35,6 @@
     <fullyQualifiedTypeName name="entities.abstracts.Entity"/>
     <fullyQualifiedTypeName name="business.concretes.UserManager"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="business.concretes.BaseManager"/>
     <fullyQualifiedTypeName name="business.concretes.ValidationManager"/>
     <fullyQualifiedTypeName name="dataAccess.abstracts.UserDao"/>
@@ -45,4 +44,20 @@
     <fullyQualifiedTypeName name="dataAccess.concretes.RegisterUserDao"/>
     <fullyQualifiedTypeName name="core.BaseService"/>
     <fullyQualifiedTypeName name="core.GoogleManagerAdapter"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.dataAccess.abstracts.ProductDao"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.entities.concretes.Product"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.business.abstracts.ProductService"/>
 </qualifiedTypeNameHistroy>

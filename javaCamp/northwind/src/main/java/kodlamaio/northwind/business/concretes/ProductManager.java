@@ -14,8 +14,10 @@ public class ProductManager implements ProductService{
 	
 	private ProductDao productDao;
 	
-	@Autowired //ProductDao'nun instancesi olmadigindan arka tarafta bu ProductDaoya instance olusturur.Bagimlilik olusturur.
+	@Autowired
+	//ProductDao'nun instancesi olmadigindan arka tarafta bu ProductDaoya instance olusturur.Bagimlilik olusturur.
 	//kısaca productDao nun ne oldugunu benim sana verebilmem icin bunun üstüne Autowired ekle diyo
+	
 	public ProductManager(ProductDao productDao) {
 		super();
 		this.productDao=productDao;

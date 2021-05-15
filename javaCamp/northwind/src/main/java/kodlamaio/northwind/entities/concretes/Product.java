@@ -7,8 +7,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import lombok.Data;
-@Data //lombok icin
-@Entity //veritabani nesnesi oldugunu soyler.
+@Data // lombok icin
+@Entity // veritabani nesnesi oldugunu soyler.
 @Table(name="products") // veritabaninda hangi tablo oldugu
 
 public class Product {

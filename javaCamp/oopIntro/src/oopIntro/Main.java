@@ -25,11 +25,11 @@ public class Main {
 		
 		Category category1=new Category();
 		category1.setId(1);
-		category1.setName("Ýcecek");
+		category1.setName("vegetables");
 		
 		Category category2=new Category();
 		category2.setId(2);
-		category2.setName("Yiyecek");
+		category2.setName("fruit");
 		
 		System.out.println(category1.getName());
 		System.out.println(category2.getName());

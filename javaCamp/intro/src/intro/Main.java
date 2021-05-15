@@ -3,8 +3,10 @@ package intro;
 public class Main {
 
 	public static void main(String[] args) {
+		
 		//camelCase(ilk kelimenin ilk harfi küçük diðer kelimelerin ilk harfi büyük)
 		//Don't repeat yourself
+		
 		String internetSubeButonu="Ýnternet Þubesi";
 		double dolarDun=8.20;
 		double dolarBugun=8.20;
@@ -57,6 +59,7 @@ public class Main {
 		for(int i=0;i<krediler.length;i++) {
 			System.out.println(krediler[i]);
 		}
+		
 		// Referans Tipler ve Deðer Tipleri
 		//Deðer Tipleri : int,double,boolean...Stackte çalýþýrlar atamalar deðeri üzerinden yapýlýr.
 		//Deðer tiplerinde deðer atamasý yapýldýktan sonra baðlantý kopar.
@@ -66,6 +69,7 @@ public class Main {
 		sayi1=sayi2;
 		sayi2=100;
 		System.out.println(sayi1);
+		
 		//Referans Tipler: Array,String,Class,Interface,Abstract
 		//Hem stack hem Heapte çalýþýr.
 		//Eþitlikte aslýnda adresler eþitlenir yani heapte ikiside ayný adreste bulunuyo olur.

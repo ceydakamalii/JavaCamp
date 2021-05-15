@@ -29,6 +29,7 @@ public class Main {
 		String kredi5="Msb Kredisi";
 		String kredi6="Meb Kredisi";
 		String kredi7="Kültür bakanlýðý Kredisi";
+		
 		System.out.println(kredi1);
 		System.out.println(kredi2);
 		System.out.println(kredi3);
@@ -47,6 +48,7 @@ public class Main {
 				"Meb Kredisi",
 				"Kültür bakanlýðý Kredisi"
 			};
+		
 		//foreach
 		for(String kredi : krediler) {
 			System.out.println(kredi);
@@ -58,27 +60,31 @@ public class Main {
 		// Referans Tipler ve Deðer Tipleri
 		//Deðer Tipleri : int,double,boolean...Stackte çalýþýrlar atamalar deðeri üzerinden yapýlýr.
 		//Deðer tiplerinde deðer atamasý yapýldýktan sonra baðlantý kopar.
+		
 		int sayi1=10;
 		int sayi2=20;
 		sayi1=sayi2;
 		sayi2=100;
-		System.out.println(sayi1);//20
+		System.out.println(sayi1);
 		//Referans Tipler: Array,String,Class,Interface,Abstract
 		//Hem stack hem Heapte çalýþýr.
 		//Eþitlikte aslýnda adresler eþitlenir yani heapte ikiside ayný adreste bulunuyo olur.
 		//Adresler eþitlendikten sonrada baðlantý kopmaz.
 		//Eþitlik sonrasý boþ kalan sayilar1 heap alaný garbage collectionla yok edilir.
+		
 		int[] sayilar1= {1,2,3,4,5};
 		int[] sayilar2= {20,30,40,50};
 		sayilar1=sayilar2;
 		sayilar2[0]=100;
-		System.out.println(sayilar1[0]);//100
-		//Stringler referans tipi olsada deðer tipi gibi çalýþýyor istisnaa
+		System.out.println(sayilar1[0]);
+		
+		//Stringler referans tipi olsada deðer tipi gibi çalýþýyor istisna
+		
 		String sehir1="Ankara";
 		String sehir2="Ýstanbul";
 		sehir1=sehir2;
 		sehir2="Ýzmir";
-		System.out.println(sehir1);//Ýstanbul
+		System.out.println(sehir1);
 		
 	}
 

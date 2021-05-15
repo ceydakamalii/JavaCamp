@@ -13,10 +13,12 @@ public class Main {
 		abc.customerNumber="99999";
 		
 		CustomerManager customerManager=new CustomerManager();
+		
 		//Polymorphism
 		//customerManager.add(hepsiBurada);
 		//customerManager.add(engin);
 		//customerManager.add(abc);
+		
 		Customer[] customers= {engin,hepsiBurada,abc};
 		customerManager.addMultiple(customers);
 	}

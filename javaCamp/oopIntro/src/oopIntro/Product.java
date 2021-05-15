@@ -7,12 +7,15 @@ public class Product {
 	private double unitPrice;
 	private String detail;
 	private double discount;
-	//private double unitPriceAfterDiscount;
+	//private double unitPriceAfterDiscount; yazmaya gerek yok.
+	
 	public Product() {
 		
 	}
+	
 	//private: sadece bu class icinde erisilebilir
 	//final sadece constructorda set edilebilir.
+	
 	public Product(int id, String name, double unitPrice, String detail,double discount) {
 		super();
 		this.id = id;

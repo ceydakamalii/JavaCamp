@@ -5,6 +5,7 @@ package oopIntro;
 public class Main {
 
 	public static void main(String[] args) {
+		
 		//Classlar referans tiptir
 		//Classlar özellik tutan ve iþ yapan(metot) olmak üzere ikiye ayrýlr.
 		

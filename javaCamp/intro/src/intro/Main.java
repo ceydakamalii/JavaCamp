@@ -52,6 +52,7 @@ public class Main {
 			};
 		
 		//foreach
+		
 		for(String kredi : krediler) {
 			System.out.println(kredi);
 		}
@@ -68,7 +69,8 @@ public class Main {
 		int sayi2=20;
 		sayi1=sayi2;
 		sayi2=100;
-		System.out.println(sayi1);
+		
+		System.out.println(sayi1); //20
 		
 		//Referans Tipler: Array,String,Class,Interface,Abstract
 		//Hem stack hem Heapte çalýþýr.
@@ -80,7 +82,8 @@ public class Main {
 		int[] sayilar2= {20,30,40,50};
 		sayilar1=sayilar2;
 		sayilar2[0]=100;
-		System.out.println(sayilar1[0]);
+		
+		System.out.println(sayilar1[0]); //100
 		
 		//Stringler referans tipi olsada deðer tipi gibi çalýþýyor istisna
 		
@@ -88,7 +91,8 @@ public class Main {
 		String sehir2="Ýstanbul";
 		sehir1=sehir2;
 		sehir2="Ýzmir";
-		System.out.println(sehir1);
+		
+		System.out.println(sehir1); //Istanbul
 		
 	}
 

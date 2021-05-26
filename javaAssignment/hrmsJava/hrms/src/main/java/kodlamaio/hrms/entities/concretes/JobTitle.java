@@ -26,7 +26,7 @@ public class JobTitle {
 	
 	
 	@Column(name="title")
-	private String positionName;
+	private String title;
 	
 
 }

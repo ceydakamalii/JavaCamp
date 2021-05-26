@@ -26,9 +26,7 @@ public class CandidateManager implements CandidatesService {
     private CandidateDao candidateDao;
     private EmailVerificationService emailVerificationService;
     private UserService userService;
-    public CandidateManager() {
-    	
-    }
+
     @Autowired
     public CandidateManager(CandidateDao candidateDao,EmailVerificationService emailVerificationService,UserService userService) {
         super();
@@ -68,7 +66,7 @@ public class CandidateManager implements CandidatesService {
         if(candidateDao.findAllByEmail(candidate.getEmail()).stream().count() != 0) {
         	return new ErrorResult("registered e-mail in the system");
         }
-        if(candidateDao.findAllByIdentificationNumber(candidate.getIdentityNumber()).stream().count() != 0) {
+        if(candidateDao.findAllByIdentityNumber(candidate.getIdentityNumber()).stream().count() != 0) {
         	return new ErrorResult(Messages.CANDIDATE_ERROR_IDENTITY_NUMBER_ALREADY_EXISTS);
         }
         

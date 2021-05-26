@@ -34,23 +34,12 @@ public class JobTitleManager implements JobTitleService {
     public Result add(JobTitle jobTitle) {
        
             
-        if(jobTitleDao.findAllByTitle(jobTitle.getPositionName()).stream().count() !=0 ) {
+        if(jobTitleDao.findAllByTitle(jobTitle.getTitle()).stream().count() !=0 ) {
         	return new ErrorResult(Messages.JOB_POSITION_ERROR_ALREADY_EXISTS);
-        }
+       }
         this.jobTitleDao.save(jobTitle);
         return new SuccessResult(Messages.JOB_POSITION_SUCCESS_ADDED);
     }
-	@Override
-	public DataResult<List<JobTitle>> findById(int id) {
-		// TODO Auto-generated method stub
-		return new SuccessDataResult<List<JobTitle>>(this.jobTitleDao.findById(id),"Başarı Şekilde Listelendi");
-	}
-
-	@Override
-    public DataResult<List<JobTitle>> findJobTitles(String title) {
-        return new SuccessDataResult<List<JobTitle>>(this.jobTitleDao.findJobTitles(title),"Başarı Şekilde Listelendi");
-    }
-
 
 
 }

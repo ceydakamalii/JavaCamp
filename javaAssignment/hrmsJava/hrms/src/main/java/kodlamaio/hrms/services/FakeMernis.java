@@ -3,7 +3,9 @@ package kodlamaio.hrms.services;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.springframework.stereotype.Service;
 
+@Service
 public class FakeMernis {
 	public static boolean validate(String tcNo) {
 

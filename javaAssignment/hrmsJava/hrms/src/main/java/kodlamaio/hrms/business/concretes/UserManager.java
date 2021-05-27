@@ -27,7 +27,7 @@ public class UserManager implements UserService{
 	@Override
 	public DataResult<List<User>> getAll() {
 		// TODO Auto-generated method stub
-		return new SuccessDataResult<List<User>>(userDao.findAll(),"Başarılı Şekilde Kullanıcılar Listelendi");
+		return new SuccessDataResult<List<User>>(userDao.findAll(),"Successful, users listed.");
 	}
 
 	@Override

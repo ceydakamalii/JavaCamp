@@ -68,8 +68,7 @@ public class EmployerManager implements EmployersService {
         User savedUser = this.userService.add(employer);
 		this.emailVerificationService.generateCode(new EmailVerification(),savedUser.getId());
         this.employerDao.save(employer);
-        System.out.println("verification code sent ID : "+employer.getId());
-        return new SuccessResult(Messages.EMPLOYER_SUCCESS_ADDED);
+        return new SuccessResult(Messages.EMPLOYER_SUCCESS_ADDED +" verification code sent ID : "+employer.getId());
     }
     private boolean companyNameChecker(Employer employer) {
 		if(employer.getCompanyName().isBlank() || employer.getCompanyName() == null) {
@@ -118,6 +117,7 @@ public class EmployerManager implements EmployersService {
 	      = "^(\\+\\d{1,3}( )?)?((\\(\\d{3}\\))|\\d{3})[- .]?\\d{3}[- .]?\\d{4}$" 
 	      + "|^(\\+\\d{1,3}( )?)?(\\d{3}[ ]?){2}\\d{3}$" 
 	      + "|^(\\+\\d{1,3}( )?)?(\\d{3}[ ]?)(\\d{2}[ ]?){2}\\d{2}$";
+		//phone 10 karakterli olucak.
 		Pattern pattern = Pattern.compile(patterns);
 		Matcher matcher = pattern.matcher(employer.getPhoneNumber());
 		if(!matcher.matches()) {

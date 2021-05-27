@@ -35,6 +35,7 @@ public class EmailVerificationManager  implements EmailVerificationService{
 					emailVerificationDao.save(code);
 					
 				}
+				
 				return ;
 	}
 	
@@ -44,12 +45,12 @@ public class EmailVerificationManager  implements EmailVerificationService{
 		EmailVerification ref = emailVerificationDao.findByUserId(id).stream().findFirst().get();
 		if(ref.getCode().equals(verificationCode) && ref.isVerified() != true) {
 			ref.setVerified(true);
-			return  new SuccessDataResult<EmailVerification>(this.emailVerificationDao.save(ref),"Başarılı");
+			return  new SuccessDataResult<EmailVerification>(this.emailVerificationDao.save(ref),"successful");
 		}
 		else if(ref.isVerified() == true) {
-			return  new ErrorDataResult<EmailVerification>(null,"Zaten Doğrulanmış Hesap");
+			return  new ErrorDataResult<EmailVerification>(null,"already verified account");
 		}
-		return  new ErrorDataResult<EmailVerification>(null,"Doğrulama Kodu Geçersiz");
+		return  new ErrorDataResult<EmailVerification>(null,"verification code is invalid");
 		
 		
 		

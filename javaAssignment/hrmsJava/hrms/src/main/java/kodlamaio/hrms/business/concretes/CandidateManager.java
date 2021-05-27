@@ -73,8 +73,7 @@ public class CandidateManager implements CandidatesService {
         User savedUser=this.userService.add(candidate);
         this.emailVerificationService.generateCode(new EmailVerification(), savedUser.getId());
         this.candidateDao.save(candidate);
-        System.out.println("verification code sent ID : "+candidate.getId());
-        return new SuccessResult(Messages.CANDIDATE_SUCCESS_ADDED);
+        return new SuccessResult(Messages.CANDIDATE_SUCCESS_ADDED+" verification code sent ID : "+candidate.getId());
     }
 	private boolean isRealEmail(Candidate candidate) {
 		 String regex = "^(.+)@(.+)$";

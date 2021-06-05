@@ -40,4 +40,5 @@
   </root>
 
   <logger name="com.ning.http.client" level="INFO" />
+<logger name="net.schmizz" level="OFF" />
 </configuration>
